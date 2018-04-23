@@ -3,3 +3,6 @@
 /.classpath
 /.project
 /alf_data_dev
+/tomcat/
+/run.bat
+/run.sh
