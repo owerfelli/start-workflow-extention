@@ -1,0 +1,20 @@
+<webscript>
+	<shortname>Start workflow</shortname>
+	<description>Start workflow</description>
+	<url>/vneuron/test/start-workflow</url>
+	<format default="json">any</format>
+	<authentication runas="admin">none</authentication>
+
+	<args>
+		<arg>
+			<shortname>wfId</shortname>
+			<description>Workflow id to start ; for example (activiti$MyProcesswf3v1).
+			</description>
+		</arg>
+		<arg>
+			<shortname>nbrInstance</shortname>
+			<description>Number of instance to start.
+			</description>
+		</arg>
+	</args>
+</webscript>
